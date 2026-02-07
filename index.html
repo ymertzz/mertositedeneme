@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mert - Kişisel Blog</title>
+    <!-- Stil Dosyası -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts (Montserrat ve Open Sans) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- İkonlar için FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Kar Taneleri Efekti -->
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+    </div>
+
+    <!-- Üst Kısım (Header) -->
+    <header class="hero">
+        <div class="profile-container">
+            <img src="img/profil.jpeg" alt="Profil Resmi" class="profile-pic">
+        </div>
+        <h1>Merhaba, Ben Mert! 👋</h1>
+
+        <!-- GIF Alanı -->
+        <div class="gif-container">
+            <!-- 
+                KULLANICI NOTU: 
+                Kendi GIF'ini eklemek için:
+                1. 'img' klasörüne bir gif at (örn: kedi.gif).
+                2. Aşağıdaki src kısmını src="img/kedi.gif" yap.
+            -->
+            <img src="img/mert.gif" alt="Havalı GIF" class="hero-gif">
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/ymerttz/" target="_blank" title="Instagram"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@ymerttz" target="_blank" title="YouTube"><i
+                    class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@ndect" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://github.com/ymertzz" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+    </header>
+
+    <!-- Ana İçerik -->
+    <main class="container">
+
+        <!-- Hakkımda Bölümü -->
+        <section class="card about">
+            <h2><i class="fas fa-user"></i> Hakkımda</h2>
+            <p>
+                Merhaba, ben Mert. 18 yaşındayım. Ankara doğumluyum ve Ankara’da yaşıyorum.
+                Lise mezunuyum ve şu anda yazılım kursuna gidiyorum.
+            </p>
+        </section>
+
+        <!-- Hobiler Bölümü -->
+        <section class="hobbies">
+            <h2><i class="fas fa-heart"></i> Nelerden Hoşlanırım?</h2>
+            <div class="grid">
+                <!-- Oyun Kartı -->
+                <div class="card hobby-card">
+                    <i class="fas fa-gamepad icon"></i>
+                    <h3>Oyun Dünyası</h3>
+                    <p>FPS'den RPG'ye, rekabetçi oyunlardan hikayeli yapımlara kadar geniş bir oyun yelpazem var.</p>
+                </div>
+
+                <!-- Müzik Kartı -->
+                <div class="card hobby-card">
+                    <i class="fas fa-headphones-alt icon"></i>
+                    <h3>Müzik Tutkusu</h3>
+                    <p>Müzik benim için bir kaçış değil, bir yaşam tarzı. Spotify listelerim her ruh haline uygun.</p>
+                </div>
+
+                <!-- Kodlama Kartı -->
+                <div class="card hobby-card">
+                    <i class="fas fa-code icon"></i>
+                    <h3>Yazılım</h3>
+                    <p>Yeni şeyler öğrenmek, kodlarla bir şeyler inşa etmek şu sıralar en büyük heyecanım.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <!-- Alt Kısım (Footer) -->
+    <footer>
+        <p>&copy; 2026 Mert. Tüm hakları saklıdır. ✨</p>
+    </footer>
+
+</body>
+
+</html>
